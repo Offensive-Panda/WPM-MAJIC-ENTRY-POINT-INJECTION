@@ -6,7 +6,7 @@ This exploit is utilising AddressOfEntryPoint of process which is RX and using W
 1) Get PEB address and pointer to image base address
 2) Get process image base address
 3) Read target process image headers
-4) Get AddressOfEntryPoint which is by-default RX
+4) Get AddressOfEntryPoint (RX region)
 5) Write shellcode to image entry point and execute it (WPM MAGIC HERE)
 
 ## USAGE
