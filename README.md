@@ -1,5 +1,5 @@
 # WPM-MAJIC-ENTRY-POINT-INJECTION
-This exploit is utilising AddressOfEntryPoint of process which is RX and using WriteProcessMemory internal magic to change the permission and write the shellcode. Exploit using direct syscalls to bypass user-mode hooking of AV/EDRs. This technique is avoiding the usage of VirtualAlloc, VirtualProtect APIs directly inside the code. The working of VirtualProtect will be covered by WPM magic.
+This exploit is utilising AddressOfEntryPoint of process which is RX and using WriteProcessMemory internal magic to change the permission and write the shellcode. Exploit also using direct syscalls to bypass user-mode hooking of AV/EDRs. This technique is avoiding the usage of VirtualAlloc, VirtualProtect APIs directly inside the code. The working of VirtualProtect will be covered by WPM magic.
 
 
 ## WORKING FLOW
